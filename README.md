@@ -1,1 +1,3 @@
-# angular_app
+angular-registration-login-example
+==============================
+
