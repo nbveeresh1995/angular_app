@@ -4,5 +4,6 @@ app.use(express.static(“angular_app”));
 app.get(‘/’, function (req, res,next) {
  res.redirect(‘/’);
 });
-app.listen(8080, ‘localhost’);
-console.log(“MyProject Server is Listening on port 8080”);
+app.listen(process.env.PORT || 5000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
