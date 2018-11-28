@@ -1,1 +1,1 @@
-web: node angular_app/server:js
+web: node index:html
