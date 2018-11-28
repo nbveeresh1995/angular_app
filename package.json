@@ -7,7 +7,7 @@
     },
    "engine": "node >=0.6.x",
    "scripts": {
-         "start": "node server.js"
+         "start": "node angular_app/server.js"
     },
    "main": "server.js",
    "repository": {
