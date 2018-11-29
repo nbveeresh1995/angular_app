@@ -7,7 +7,7 @@
     },
    "engine": "node >=0.6.x",
    "scripts": {
-         "start": "node app.js"
+         "start": "node server.js"
     },
    "main": "server.js",
    "repository": {
